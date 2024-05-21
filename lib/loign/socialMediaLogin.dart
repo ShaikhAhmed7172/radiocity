@@ -19,7 +19,7 @@ class SignInButton extends StatelessWidget {
       width: MediaQuery.of(context).size.width * 0.9,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          primary: Colors.transparent,
+          backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
           minimumSize: Size(double.infinity, 60),
           side: BorderSide(color: Colors.grey, width: 2),

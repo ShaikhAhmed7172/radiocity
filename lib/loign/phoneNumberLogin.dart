@@ -82,7 +82,7 @@ class _PhoneNumberSectionState extends State<PhoneNumberSection> {
                     ));
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.grey,
+                backgroundColor: Colors.grey,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                 ),

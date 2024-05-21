@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
         brightness: Brightness.dark,
       ),
       themeMode: _themeMode,
-      home: const Dashboard(),
+      home: const LoginPage(),
     );
   }
 }
